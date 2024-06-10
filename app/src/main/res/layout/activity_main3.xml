@@ -7,27 +7,76 @@
     android:background="@drawable/weath3_2"
     tools:context=".MainActivity3">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="68dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
 
-    <Button
-        android:id="@+id/btnExt3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Leave App"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="594dp" />
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
 
-    <Button
-        android:id="@+id/btnMain2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Return to mainscreen"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="505dp" />
+            <TableLayout
+                android:id="@+id/tableLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+
+                <TableRow>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day"
+                        android:textStyle="bold"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MinTemp"
+                        android:textStyle="bold"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MaxTemp"
+                        android:textStyle="bold"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Weather Condition"
+                        android:textStyle="bold"/>
+
+
+
+
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnMainsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return to mainscreen" />
+
+        <Button
+            android:id="@+id/btnExt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leave App" />
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

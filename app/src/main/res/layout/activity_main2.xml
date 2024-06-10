@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/etnDay"
-        android:layout_width="225dp"
-        android:layout_height="46dp"
+        android:layout_width="230dp"
+        android:layout_height="49dp"
         android:background="@color/ic_launcher_background"
         android:ems="10"
         android:hint="Enter Day"
@@ -24,8 +24,8 @@
 
     <EditText
         android:id="@+id/etnWeathcon"
-        android:layout_width="225dp"
-        android:layout_height="45dp"
+        android:layout_width="232dp"
+        android:layout_height="54dp"
         android:background="@color/white"
         android:ems="10"
         android:hint="Enter weather condition"
@@ -39,8 +39,8 @@
 
     <EditText
         android:id="@+id/etnMin"
-        android:layout_width="226dp"
-        android:layout_height="39dp"
+        android:layout_width="236dp"
+        android:layout_height="49dp"
         android:background="@color/white"
         android:ems="10"
         android:hint="Enter minimum temperature"
@@ -72,8 +72,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Display"
-        app:layout_constraintBottom_toTopOf="@+id/btnRev"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnStore"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etnWeathcon"
@@ -84,11 +84,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Clear"
-        app:layout_constraintBottom_toTopOf="@+id/btnExt1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnDis"
+        app:layout_constraintStart_toEndOf="@+id/btnStore"
+        app:layout_constraintTop_toBottomOf="@+id/etnWeathcon"
         app:layout_constraintVertical_bias="0.5" />
 
     <Button
@@ -100,7 +100,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRev"
+        app:layout_constraintTop_toBottomOf="@+id/btnStore"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/btnStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        app:layout_constraintBottom_toTopOf="@+id/btnExt1"
+        app:layout_constraintEnd_toStartOf="@+id/btnRev"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnDis"
+        app:layout_constraintTop_toBottomOf="@+id/etnWeathcon"
         app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
