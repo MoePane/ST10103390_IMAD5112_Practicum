@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="159dp"
+        android:layout_height="36dp"
+        android:text="Weather App"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnMain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Page"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <Button
+        android:id="@+id/btnExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave App"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="292dp"
+        android:layout_height="18dp"
+        android:text="Morena Nkopane : ST10103390"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="69dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
