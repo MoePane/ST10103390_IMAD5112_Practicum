@@ -60,6 +60,8 @@ To make the user interface neater, if possible, the app will have most features 
 
 ![Repository]![Github weather app](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/587c5aba-193b-4e95-b6bd-2aa760494c86) 
 
+<h3>Flowchart</h3>
+
 
 
 ## 🎈 Usage <a name="usage"></a>
@@ -74,6 +76,11 @@ To make the user interface neater, if possible, the app will have most features 
 ![Main page]![Mainscreen](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/6d139a07-baf2-4852-8db1-42f7ea560275)<br>
 
 <p>This includes the screenshots of the error messages and how the data will be carried to third screen.</p>
+
+![Input from user](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/3632d304-da36-487c-81ef-6fe9f790ba91)<br>
+![Exit App](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/932e98c1-8047-41d6-a586-eca29ecadfae)<br>
+![3rd screen](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/16ae2058-c298-4d04-a9d0-bb7847ed7001)<br>
+![error message](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/18c3f650-d897-425b-b4ec-235457a8cf48)<br>
 
 
 
