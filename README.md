@@ -71,15 +71,12 @@ To make the user interface neater, if possible, the app will have most features 
 
 <p>This is the app accessing the main page, containing the relevant input data and buttons.</p>
 
-![Main page](https://github.com/MoePane/TheHistoryApp/assets/161456812/aff14fdb-9be0-49e9-b3ea-691b6f6658c3)<br>
+![Main page]![Mainscreen](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/6d139a07-baf2-4852-8db1-42f7ea560275)<br>
 
-## YouTube video
-<p>Video demonstration of app</p>
-https://youtu.be/32p16ahs8mo 
+<p>This includes the screenshots of the error messages and how the data will be carried to third screen.</p>
 
-## 🎉 References <a name = "references"></a>
 
-- References:
-  <p>W3Schools, 2024. Kotlin, 30 March 2024. [Online]. Available at:https://www.w3schools.com/ [Accessed 30 March 2024].</p>
-      
+
+
+
  
