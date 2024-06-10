@@ -67,13 +67,11 @@ To make the user interface neater, if possible, the app will have most features 
 
 <p>This is the app when opened below:</p>
 
-![app boot up](https://github.com/MoePane/TheHistoryApp/assets/161456812/a5cde71f-bba3-4b55-ad68-db33895af775) <br>
+![app boot up]![Splash screen](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/7a7edac8-3f2d-42bd-8108-c2868f87919d) <br>
 
-<p>This is the app accessing the main page, pushing the buttons to feed, clean and play and chnages to the statuses respectively.</p>
+<p>This is the app accessing the main page, containing the relevant input data and buttons.</p>
 
 ![Main page](https://github.com/MoePane/TheHistoryApp/assets/161456812/aff14fdb-9be0-49e9-b3ea-691b6f6658c3)<br>
-![Pushing of feeding, cleaning and playing buttons](https://github.com/MoePane/TheHistoryApp/assets/161456812/560892c5-6f88-4d70-95b1-e730a899fc06)<br>
-![Changes of statuses](https://github.com/MoePane/TheHistoryApp/assets/161456812/36642778-03df-4469-b3e7-1799797344eb)<br>
 
 ## YouTube video
 <p>Video demonstration of app</p>
