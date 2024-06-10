@@ -60,7 +60,9 @@ To make the user interface neater, if possible, the app will have most features 
 
 ![Repository]![Github weather app](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/587c5aba-193b-4e95-b6bd-2aa760494c86) 
 
-<h3>Flowchart</h3>
+<h3>Flowchart</h3><br>
+
+![ST10103390_IMAD1112_Practicum_flowchart](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/5e44e64b-5f87-4b61-8884-c1a78e314f26)
 
 
 
