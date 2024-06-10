@@ -58,13 +58,12 @@ To make the user interface neater, if possible, the app will have most features 
 <h3>Repositories</h3>
 <p>This is the initial area where the files containin the source code and other necessary files for the app.</p>
 
-![Repository](https://github.com/MoePane/TheHistoryApp/assets/161456812/28956763-0a99-484d-9211-ffb9f9bfe749) 
-
+![Repository]![Github weather app](https://github.com/ST10103390/ST10103390_IMAD5112_Practicum/assets/161456812/587c5aba-193b-4e95-b6bd-2aa760494c86) 
 
 
 
 ## 🎈 Usage <a name="usage"></a>
-<P>The user only needs to boot up the app, and click on the begin button to the second page. The next page will show the initial view of the pet and 3 buttons and the pet's statuses below. The user only needs to click on the respective buttons to conduct the various activities with the pet. Each activity will be inidcated by the change of the images of the pet. The seekbars will increase with each button push and then decrease gradually over time.</P>
+<P>The user only needs to boot up the app, and click on the main button to the second page. The next page will show the initial view of the data input boxes.This is where the user will enter the day, min,max and weather condition. The user can make use of the clear button to remove the data once saved and click the display button to view the data on the next screen. Leave App button gives the user to exit the app. The 3rd screeen will display the table containing the data. 
 
 <p>This is the app when opened below:</p>
 
