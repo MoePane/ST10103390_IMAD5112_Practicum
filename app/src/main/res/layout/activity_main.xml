@@ -4,39 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/weath1"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tvHeading"
         android:layout_width="159dp"
         android:layout_height="36dp"
+        android:background="@color/ic_launcher_background"
         android:text="Weather App"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/btnMain1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Main Page"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="511dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnExt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/btnExt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Leave App"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="511dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnMain1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.5" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="292dp"
-        android:layout_height="18dp"
+        android:layout_width="305dp"
+        android:layout_height="32dp"
+        android:background="@color/ic_launcher_background"
         android:text="Morena Nkopane : ST10103390"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="69dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeading"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="166dp"
+        android:layout_height="174dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMain1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/weather_lit" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

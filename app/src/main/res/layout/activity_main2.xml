@@ -4,6 +4,103 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/weath2"
     tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/etnDay"
+        android:layout_width="225dp"
+        android:layout_height="46dp"
+        android:background="@color/ic_launcher_background"
+        android:ems="10"
+        android:hint="Enter Day"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/etnMin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/etnWeathcon"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter weather condition"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btnDis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnMax"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/etnMin"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter minimum temperature"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/etnMax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnDay"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/etnMax"
+        android:layout_width="233dp"
+        android:layout_height="51dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter maximum temperature"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/etnWeathcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnMin"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/btnDis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        app:layout_constraintBottom_toTopOf="@+id/btnRev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnWeathcon"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/btnRev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        app:layout_constraintBottom_toTopOf="@+id/btnExt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDis"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/btnExt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave App"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRev"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
