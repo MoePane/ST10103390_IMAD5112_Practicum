@@ -1,6 +1,6 @@
-<h1 align="center">The Weather App</h1>
+<h1 align="center">The Weather App</h1><br>
 
-
+<pr> Morena Nkopane ST10103390</p>
 ---
 
 <p align="center"> This app serves the purpose of allowing users to input the minimum and maximum temperatures and determining the avarage and displaying the data.
