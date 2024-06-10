@@ -16,10 +16,18 @@
         tools:layout_editor_absoluteY="68dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnExt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="544dp" />
+        android:text="Leave App"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <Button
+        android:id="@+id/btnMain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to mainscreen"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="505dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
