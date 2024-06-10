@@ -30,8 +30,8 @@ class MainActivity3 : AppCompatActivity() {
         for (i in days.indices){
             var tableRow = TableRow(this).apply{
                 addView(createTextView(days[i]))
-                addView(createTextView(minTemp[i].toString()))
-                addView(createTextView(maxTemp[i].toString()))
+                addView(createTextView(minTemp[i]))
+                addView(createTextView(maxTemp[i]))
                 addView(createTextView(weathcond[i]))
             }
             tble.addView(tableRow)

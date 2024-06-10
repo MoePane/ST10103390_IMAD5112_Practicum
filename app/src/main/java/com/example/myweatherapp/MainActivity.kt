@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         var mainp = findViewById<Button>(R.id.btnMain1)
         var leaveap = findViewById<Button>(R.id.btnExt)
 
+        //button to access mainscreen
         mainp.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
